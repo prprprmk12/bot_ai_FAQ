@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 
 # --- ЗАГРУЗКА ОКРУЖЕНИЯ ---
 load_dotenv()  # Загружает переменные из файла .env
-api_key = os.getenv("MISTRAL_API_KEY")
+api_key = os.getenv("MISTRAL_API_KEY","Ybw8mXxtjlIQIpy1xVSZU5Cap1V1unta")
 
 # Проверка наличия ключа
 if not api_key:
